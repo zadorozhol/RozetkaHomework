@@ -18,10 +18,6 @@ public class RozetkaTests extends BaseTest {
         System.out.println("post any test");
     }
 
-    @Test
-    public void otherTest() {
-        System.out.println("i am another test!");
-    }
 
 
     private void loadRozetkaPage() {

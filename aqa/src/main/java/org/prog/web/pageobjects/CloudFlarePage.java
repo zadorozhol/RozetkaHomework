@@ -2,6 +2,7 @@ package org.prog.web.pageobjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.prog.web.pageobjects.generaluse.AbstractPage;
 
 public class CloudFlarePage extends AbstractPage {
 
@@ -18,6 +19,7 @@ public class CloudFlarePage extends AbstractPage {
     }
 
     public void acceptCookies() {
+
         clickElement(By.id(ACCEPT_COOKIES_BTN));
     }
 }
